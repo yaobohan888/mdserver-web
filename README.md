@@ -27,8 +27,6 @@
 
 基本上可以使用,后续会继续优化!欢迎提供意见！
 
-- 吹水组 - https://t.me/mdserver_web
-- 交流论坛 - https://bbs.midoks.icu
 
 ```
 如果出现问题，最好私给我面板信息。不要让我猜。如果不提供，不要提出问题，自行解决。  — 座右铭
@@ -39,8 +37,6 @@ Talk is cheap, show me the code.  -- linus
 - [常用命令说明](/cmd.md) [ mw default ] [ mw update_dev ]
 
 ### 特别赞助
-
-- [虚位以待](https://bbs.midoks.icu)
 
 ### 主要插件介绍
 
@@ -143,20 +139,19 @@ wget --no-check-certificate -O uninstall.sh https://cdn.jsdelivr.net/gh/midoks/m
 - 初始安装
 
 ```
-curl --insecure -fsSL https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/install.sh | bash
-curl --insecure -fsSL https://code.midoks.icu/midoks/mdserver-web/raw/branch/master/scripts/install.sh | bash
+curl --insecure -fsSL https://raw.githubusercontent.com/yaobohn888/mdserver-web/master/scripts/install.sh | bash
 ```
 
 - 直接更新
 
 ```
-curl --insecure -fsSL https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/update.sh | bash
+curl --insecure -fsSL https://raw.githubusercontent.com/yaobohn888/mdserver-web/master/scripts/update.sh | bash
 ```
 
 - 卸载脚本
 
 ```
-wget --no-check-certificate -O uninstall.sh https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/uninstall.sh && bash uninstall.sh
+wget --no-check-certificate -O uninstall.sh https://raw.githubusercontent.com/yaobohn888/mdserver-web/master/scripts/uninstall.sh && bash uninstall.sh
 ```
 
 
@@ -165,30 +160,30 @@ wget --no-check-certificate -O uninstall.sh https://raw.githubusercontent.com/mi
 - 需已经安装mdserver-web
 
 ```
-curl --insecure -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/dev/scripts/quick/app.sh | bash
+curl --insecure -fsSL  https://raw.githubusercontent.com/yaobohn888/mdserver-web/dev/scripts/quick/app.sh | bash
 ```
 
 
 ### DEV使用
 
 ```
-curl --insecure -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/dev/scripts/install_dev.sh | bash
-curl --insecure -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/dev/scripts/update_dev.sh | bash
+curl --insecure -fsSL  https://raw.githubusercontent.com/yaobohn888/mdserver-web/dev/scripts/install_dev.sh | bash
+curl --insecure -fsSL  https://raw.githubusercontent.com/yaobohn888/mdserver-web/dev/scripts/update_dev.sh | bash
 
-wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/midoks/mdserver-web/dev/scripts/install.sh && bash install.sh
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/yaobohn888/mdserver-web/dev/scripts/install.sh && bash install.sh
 
-wget --no-check-certificate -O uninstall.sh https://raw.githubusercontent.com/midoks/mdserver-web/dev/scripts/uninstall.sh && bash uninstall.sh
+wget --no-check-certificate -O uninstall.sh https://raw.githubusercontent.com/yaobohn888/mdserver-web/dev/scripts/uninstall.sh && bash uninstall.sh
 
-curl --insecure -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/dev/scripts/quick/debug.sh | bash
+curl --insecure -fsSL  https://raw.githubusercontent.com/yaobohn888/mdserver-web/dev/scripts/quick/debug.sh | bash
 
-curl --insecure -fsSL https://code.midoks.icu/midoks/mdserver-web/raw/branch/dev/scripts/install_dev.sh | bash
-curl --insecure -fsSL https://code.midoks.icu/midoks/mdserver-web/raw/branch/dev/scripts/update_dev.sh | bash
+curl --insecure -fsSL https://code.midoks.icu/yaobohn888/mdserver-web/raw/branch/dev/scripts/install_dev.sh | bash
+curl --insecure -fsSL https://code.midoks.icu/yaobohn888/mdserver-web/raw/branch/dev/scripts/update_dev.sh | bash
 ```
 
 ### 旧版安装/更新
 ```
-curl --insecure -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/dev/scripts/old/install.sh | bash
-curl --insecure -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/dev/scripts/old/update.sh | bash
+curl --insecure -fsSL  https://raw.githubusercontent.com/yaobohn888/mdserver-web/dev/scripts/old/install.sh | bash
+curl --insecure -fsSL  https://raw.githubusercontent.com/yaobohn888/mdserver-web/dev/scripts/old/update.sh | bash
 ```
 
 ### 偶然问题
@@ -204,7 +199,7 @@ mw update/mw update_dev
 
 ### 捐赠地址 USDT（TRC20）
 
-TVbNgrpeGBGZVm5gTLa21ADP7RpnPFhjya
+
 
 日行一善，以后必定大富大贵
 
